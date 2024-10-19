@@ -63,13 +63,13 @@ The model is trained using the Adam optimizer and sparse categorical crossentrop
 ## Evaluation
 The model is evaluated on the test set to measure its performance. The evaluation metrics include accuracy and loss.
 <br><code>Test loss: 0.0241182143806917 </code> <br>
-<code>Test accuracy: 0.9900000095367432 </code><br><br>
-![Screenshot 2024-10-20 023325](https://github.com/user-attachments/assets/3b3aa299-bff0-411d-9a24-7a552cf3dd58)
-
+<code>Test accuracy: 0.9900000095367432 </code>
 ## Visualization
 The training process and results are visualized using Matplotlib. The following plots are generated:
 - Model Accuracy
-- Model Loss
+- Model Loss<br><br>
+![Screenshot 2024-10-20 023325](https://github.com/user-attachments/assets/3b3aa299-bff0-411d-9a24-7a552cf3dd58)
+
 
 ## Output
 ![Screenshot 2024-10-20 023427](https://github.com/user-attachments/assets/30143ba6-ad03-4060-9e10-aecae23a104d)
