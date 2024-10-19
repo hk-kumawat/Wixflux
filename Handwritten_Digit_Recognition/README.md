@@ -11,8 +11,9 @@ This project focuses on recognizing handwritten digits using a Convolutional Neu
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Visualization](#visualization)
-- [Results](#results)
-- [Output](#contributing)
+- [Output](#output)
+- [Conclusion](#conclusion)
+
 
 ## Introduction
 
@@ -34,7 +35,9 @@ pip install tensorflow numpy matplotlib
 
 ## Dataset
 
-The MNIST dataset is used for training and evaluating the model. It consists of 60,000 training images and 10,000 testing images. Each image is a 28x28 pixel grayscale image of a digit.
+The MNIST dataset is used for training and evaluating the model. It consists of 60,000 training images and 10,000 testing images. Each image is a 28x28 pixel grayscale image of a digit.<br><br>
+![MNIST-0000000001-2e09631a_09liOmx](https://github.com/user-attachments/assets/f5987023-9524-4bf8-a4bb-2156d509c9a7)
+
 
 
 ## Model Architecture
@@ -59,13 +62,28 @@ The model is trained using the Adam optimizer and sparse categorical crossentrop
 
 ## Evaluation
 The model is evaluated on the test set to measure its performance. The evaluation metrics include accuracy and loss.
+<br><code>Test loss: 0.0241182143806917 </code> <br>
+<code>Test accuracy: 0.9900000095367432 </code><br><br>
+![Screenshot 2024-10-20 023325](https://github.com/user-attachments/assets/3b3aa299-bff0-411d-9a24-7a552cf3dd58)
 
 ## Visualization
 The training process and results are visualized using Matplotlib. The following plots are generated:
 - Model Accuracy
 - Model Loss
 
-## Results
-The model achieved an 0.9900000095367432 test accuracy score on the test set.
-
 ## Output
+![Screenshot 2024-10-20 023427](https://github.com/user-attachments/assets/30143ba6-ad03-4060-9e10-aecae23a104d)
+
+
+## Conclusion
+This project successfully demonstrates the use of Convolutional Neural Networks (CNNs) for recognizing handwritten digits. By leveraging the power of TensorFlow and the well-known MNIST dataset, we trained a model that achieved high accuracy in classifying digits from 0 to 9.
+
+Throughout the project, we:
+- Implemented a robust CNN architecture designed for image recognition.
+- Preprocessed and normalized the MNIST dataset to improve training efficiency.
+- Trained the model using the Adam optimizer and sparse categorical crossentropy loss function.
+- Visualized the training process to monitor accuracy and loss.
+- Evaluated the model on the test set to ensure generalization.
+
+The results show that our model is capable of accurately recognizing handwritten digits, which can be applied to various practical applications such as digitizing handwritten notes, automating data entry, and more.
+
