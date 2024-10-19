@@ -32,6 +32,7 @@ You can install the required libraries using pip:
 ```bash
 pip install tensorflow numpy matplotlib
 
+
 ## Dataset
 
 The MNIST dataset is used for training and evaluating the model. It consists of 60,000 training images and 10,000 testing images. Each image is a 28x28 pixel grayscale image of a digit.
