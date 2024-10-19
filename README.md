@@ -1,3 +1,3 @@
 # Wixflux
-This is my intenship repo<br>
-Author - Harshal  Kumawat 
+This is my intenship repository<br>
+Author - Harshal Kumawat 
