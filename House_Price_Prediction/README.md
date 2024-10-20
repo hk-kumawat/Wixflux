@@ -1,5 +1,6 @@
 # House Price Prediction
-This project focuses on predicting house prices based on various features such as size, location, and number of rooms using Linear Regression.
+This project focuses on predicting house prices based on various features such as size, location, and number of rooms using Linear Regression.<br><br>
+![148332938-4e66d4ca-2d16-474f-8482-340aef6a48d0](https://github.com/user-attachments/assets/7e3be8b8-4d6c-45de-9962-5ba5865e2ebc)
 
 
 ## Table of Contents
