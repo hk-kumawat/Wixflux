@@ -11,7 +11,6 @@ This project focuses on predicting house prices based on various features such a
 - [Model](#model)
 - [Training](#training)
 - [Evaluation](#evaluation)
-- [Visualization](#visualization)
 - [Output](#output)
 - [Conclusion](#conclusion)
 
@@ -71,19 +70,16 @@ The model achieved the following results:
 - RMSE: 102,279
 - R²: 0.918
 
-## Visualization
+## Output
 The following visualizations are generated to better understand the model's performance:
 <br>
-- Scatter plot of actual vs predicted prices.<br>
-![Screenshot 2024-10-20 052812](https://github.com/user-attachments/assets/100e64f4-e3ab-4aec-9db7-da5739c61a4f)
+- Scatter plot of actual vs predicted prices.<br><br>
+![Screenshot 2024-10-20 052812](https://github.com/user-attachments/assets/100e64f4-e3ab-4aec-9db7-da5739c61a4f)<br><br>
 
-<br>
-- Distribution plot of residuals.<br>
+
+- Distribution plot of residuals.<br><br>
 ![Screenshot 2024-10-20 053300](https://github.com/user-attachments/assets/05d266f4-f14a-492f-b216-f266e9132b41)
 
-
-
-## Output
 
 
 ## Conclusion
